@@ -1,0 +1,20 @@
+.idea/
+/vendor/
+/public/wp/
+local-config.php
+production-config.php
+dev-config.php
+
+# Dont ignore plugins dir but ingnore everything inside
+!/public/wp-content/plugins
+/public/wp-content/plugins/*
+
+# Dont ignore custom plugin to developement
+!/public/wp-content/plugins/*
+
+# Dont ignore themes dir but ignore everything inside
+/public/wp-content/themes/
+/public/wp-content/themes/*
+
+# Dont ignore custom theme to developement
+!/public/wp-content/themes/cusom-theme
